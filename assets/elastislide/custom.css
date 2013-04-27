@@ -1,0 +1,22 @@
+/* Custom Elastislide Styling */
+
+.demos .elastislide-horizontal {
+	margin-top: 10px;
+	padding: 50px 160px;
+}
+
+.demos .elastislide-wrapper:before,
+.demos .elastislide-wrapper:after{
+	content: '';
+	position: absolute;
+	z-index: -2;
+	bottom: 25px;
+	left:  20px;
+	width: 90%;
+	height: 20%;
+}
+
+.demos .elastislide-wrapper:after {
+	right: 20px;
+	left: auto;
+}
